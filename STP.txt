@@ -1,0 +1,10 @@
+問１：Switch3
+
+問２：Switch1　F0／1→DP　　　F0/2がRPなのでDP
+     Switch1　F0／2→RP　　　ルートブリッジの対向だから
+     Switch2　f0／1→RP　　　パスコストが短いから
+     Switch2　f0／2→BP　　　全ての余りだから
+     Switch3　E0／1→DP    　Switch3がルートブリッジだから
+     Switch3　E0／2→DP　　　Switch3がルートブリッジだから
+     Switch4　E0／1→DP　　　E0/2がRPだから
+     Switch4　E0／2→RP　　　ルートポートの対向だから　
